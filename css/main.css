@@ -1,0 +1,13 @@
+.portadaInicio {
+    height: 60vh;
+    background-image: url(../img/s2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.nav-link:hover {
+    background-color: #FFE8D6;
+}
+.btn {
+    background-color: #FFE8D6;
+    color: #303030;
+}
