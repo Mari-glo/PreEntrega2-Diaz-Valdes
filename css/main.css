@@ -43,3 +43,68 @@ h5::selection {
 a::selection {
     background-color: burlywood;
 }
+/*section 1 */
+.imageninicio {
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background-image: url(../img/s2.jpg);
+    background-size: cover;
+}
+.imageninicio__titulo {
+    font-size: 24px;
+    color: #CB997E;
+    background-color: rgba(0, 0, 0, 0.404);
+    padding: 20px;
+    border-radius: 5px;
+}
+/*section 2 */
+
+.contenidoInicio {
+    padding: 80px;
+}
+.contenidoInicio__titulo {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.tarjetas {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+.tarjeta {
+    background-color: #CB997E;
+    width: 100%;
+    height: 500px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    background-size: cover;
+}
+.tarjeta h3{
+    background-color: #FFE8D6;
+    text-decoration: none;
+    color: #6B705C;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.h3 {
+    text-decoration: none;
+}
+.h3:hover {
+    
+    color: #CB997E;
+}
+.tarjeta--coleccion {
+    background-image: url(../img/in_1.jpg);
+}
+.tarjeta--lectura {
+    background-image: url(../img/in_2.jpg);
+
+}
+.tarjeta--ideas {
+    background-image: url(../img/in_4.jpg);
+}
+
