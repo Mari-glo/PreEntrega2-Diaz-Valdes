@@ -8,10 +8,38 @@
     background-size: cover;
     background-position: center;
 }
+.finInicio {
+    height: 60vh;
+    background-image: url(../img/s1.jpg);
+    color: #FFE8D6;
+    background-size: cover;
+    background-position: center;
+}
 .nav-link:hover {
     background-color: #FFE8D6;
 }
 .btn {
     background-color: #FFE8D6;
     color: #303030;
+}
+p::selection {
+    background-color: darksalmon;
+}
+h1::selection {
+    background-color: darksalmon;
+}
+h2::selection {
+    background-color: darksalmon;
+}
+h3::selection {
+    background-color: darksalmon;
+}
+h4::selection {
+    background-color: darksalmon;
+}
+h5::selection {
+    background-color: darksalmon;
+}
+a::selection {
+    background-color: burlywood;
 }
